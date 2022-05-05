@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f3bfbf">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="830dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="-2dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="166dp"
+            android:src="@drawable/user"
+            android:scaleType="fitXY"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="408dp"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/order"
+                android:layout_width="match_parent"
+                android:layout_height="171dp"
+                android:background="#f3bfbf"
+                android:src="@drawable/order" />
+
+            <ImageButton
+                android:id="@+id/shoopingcart"
+                android:layout_width="match_parent"
+                android:layout_height="148dp"
+                android:background="#f3bfbf"
+                android:src="@drawable/shoopingcart" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="155dp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="4dp"
+            tools:layout_editor_absoluteY="678dp">
+
+            <Button
+                android:id="@+id/bt1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:drawableTop="@drawable/bt1"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="5dp"
+                android:text="推荐"
+                android:textColor="#FF03DAC5"
+                android:textSize="16sp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="696dp" />
+
+            <Button
+                android:id="@+id/bt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:drawableTop="@drawable/bt2"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="5dp"
+                android:text="喜欢"
+                android:textColor="#FF03DAC5"
+                android:textSize="16sp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="163dp"
+                tools:layout_editor_absoluteY="703dp" />
+
+            <Button
+                android:id="@+id/bt3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:drawableTop="@drawable/bt3"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="5dp"
+                android:text="我的"
+                android:textColor="#FF03DAC5"
+                android:textSize="16sp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="288dp"
+                tools:layout_editor_absoluteY="703dp" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

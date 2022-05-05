@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f3bfbf"
+    tools:context="shopActivity">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/top"
+            android:layout_width="395dp"
+            android:layout_height="131dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/top"
+            tools:ignore="MissingConstraints" />
+
+    <LinearLayout
+        android:layout_width="397dp"
+        android:layout_height="438dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="209dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="101dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal">
+
+            <ImageView
+                android:id="@+id/cat2"
+                android:layout_width="79dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/cat2" />
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="106dp"
+                android:layout_height="62dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/cat2"
+                android:gravity="center_vertical"
+                android:text="小花"
+                android:textColor="#ffffff"
+                android:textSize="25sp" />
+
+            <ImageButton
+                android:id="@+id/buy1"
+                android:layout_width="91dp"
+                android:layout_height="89dp"
+                android:layout_marginLeft="26dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/text1"
+                android:src="@drawable/buy" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="103dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal">
+
+            <ImageView
+                android:id="@+id/cat3"
+                android:layout_width="79dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/cat3" />
+
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="106dp"
+                android:layout_height="62dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/cat3"
+                android:gravity="center_vertical"
+                android:text="小美"
+                android:textColor="#ffffff"
+                android:textSize="25sp" />
+
+            <ImageButton
+                android:id="@+id/buy2"
+                android:layout_width="90dp"
+                android:layout_height="93dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/text2"
+                android:src="@drawable/buy" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="116dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal">
+
+            <ImageView
+                android:id="@+id/cat4"
+                android:layout_width="79dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/cat4" />
+
+            <TextView
+                android:id="@+id/text3"
+                android:layout_width="106dp"
+                android:layout_height="62dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/cat4"
+                android:gravity="center_vertical"
+                android:text="大春"
+                android:textColor="#ffffff"
+                android:textSize="25sp" />
+
+            <ImageButton
+                android:id="@+id/buy3"
+                android:layout_width="93dp"
+                android:layout_height="95dp"
+                android:layout_marginLeft="34dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/text3"
+                android:src="@drawable/buy" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="381dp"
+            android:layout_height="147dp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="4dp"
+            tools:layout_editor_absoluteY="678dp">
+
+            <Button
+                android:id="@+id/bt1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:drawableTop="@drawable/bt1"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="5dp"
+                android:text="推荐"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="696dp" />
+
+            <Button
+                android:id="@+id/bt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:drawableTop="@drawable/bt2"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="5dp"
+                android:text="喜欢"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="163dp"
+                tools:layout_editor_absoluteY="703dp" />
+
+            <Button
+                android:id="@+id/bt3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:drawableTop="@drawable/bt3"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="5dp"
+                android:text="我的"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="288dp"
+                tools:layout_editor_absoluteY="703dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
